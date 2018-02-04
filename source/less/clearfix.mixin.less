@@ -1,0 +1,11 @@
+/*https://canonium.com/articles/css-incredible-less*/
+.clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
